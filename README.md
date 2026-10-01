@@ -148,3 +148,6 @@ A 1.1B model follows instructions loosely. Increase `k`, tune your chunk size in
 - TinyLlama is small and can still hallucinate or ignore the "use only the context" instruction.
 - No conversation memory: each question is answered independently.
 - Retrieval uses plain similarity search with a single chunk by default.
+- Since the model runs locally, it may take some time to generate an answer.
+- The system currently runs only in the terminal, not through a graphical interface.
+
